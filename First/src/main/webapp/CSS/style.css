@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+	background:black;
+	color:white;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}

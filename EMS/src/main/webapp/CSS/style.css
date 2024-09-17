@@ -1,0 +1,168 @@
+@charset "UTF-8";
+*{
+	padding:0;margin:0;
+	
+}
+.login-nav{
+	display:flex;
+	justify-content:space-between;
+    
+    align-items: center;
+    background-color: #009688;
+    height: 3rem;
+	
+}
+.login-nav h1{
+    /* border: solid 1px rgb(239, 16, 16); */
+    font-weight: 100;
+    font-size:x-large;
+    margin-left: 10%;
+    /* color: rgb(204, 59, 57); */
+    color: white;
+}
+.nav-a{
+	text-decoration:none;
+    margin-right: 10%;
+    height: 2rem;
+    width: 12%;
+    font-size:medium;
+    border-radius: 10%;
+    border:solid 0px #a4c1be;
+    background-color: #f1f5f4;
+    color: rgb(118, 75, 75);
+   /* text-align:center;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-head{
+    height: 50vh;
+   
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE8B2;
+    /* background:linear-gradient(rgb(212, 31, 61),rgb(114, 15, 234),rgb(248, 6, 252),rgb(86, 12, 123),rgb(212, 31, 61)); */
+    margin-top: 2rem;
+    
+}
+input{
+    padding-left: 0.5rem;
+}
+form button{
+
+    background-color: red;
+    color: white;
+    width: 4rem;
+    height: 1.5rem;
+    border:none;
+}
+.form-head h2{
+    padding-bottom: 10%;
+    font-weight: 100;
+    color: rgb(202, 158, 105);
+}
+
+.home-nav ul{
+    list-style-type: none;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.home-nav a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.home-nav button{
+    border: none;
+    width: 5rem;
+    
+   
+    height: 1.5rem;
+    color: rgb(136, 114, 114);
+    margin-right: 8%;
+    font-size:medium;
+    border-radius: 10%;
+    border:solid 0px #a4c1be;
+    background-color: #f1f5f4;
+    color: rgb(118, 75, 75);
+   /* text-align:center;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* table */
+main{
+    margin-top: 5%;
+}
+/* General table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Border styling */
+table, th, td {
+    border: 2px solid #ddd;
+}
+
+/* Header styling */
+th {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+}
+
+/* Cell padding */
+td {
+    padding: 10px;
+}
+
+/* Row hover effect */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Adjust table cell text alignment */
+td, th {
+    text-align: center;
+}
+
+
+
+/* signup */
+.signup-nav{
+    width: 5rem;
+    color: rgb(136, 114, 114);
+    margin-right: 8%;
+    font-size:larger;
+    border-radius: 10%;
+    border:solid 0px #a4c1be;
+    background-color: #f1f5f4;
+    color: rgb(118, 75, 75);
+   /* text-align:center;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-main{
+    height: 80vh;
+}
+
+#id{
+	font-size:7rem;
+}
